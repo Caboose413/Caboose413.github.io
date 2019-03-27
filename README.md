@@ -17,6 +17,11 @@ which is supposed to be full of treasure. but little did you know about the real
 Bunny hop league is a fast paced parkour game which is making use of the famous bunny hopping and surfing technique from Counter-Strike.
 by moving your mouse left and right you gain speed to finish the parkour first.
 
+- **Role:**
+ - Lead Developer.
+ - Level Design.
+ - Programming.
+ 
 Bunny hop league is currently available on steam you can check it out here! [Link to Steam ](https://store.steampowered.com/app/429780/Bunny_Hop_League/)
 
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/bunnyhopleague/BhlExample.gif?raw=true)
