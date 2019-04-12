@@ -23,12 +23,12 @@ which is supposed to be full of treasure. but little did you know about the real
 Bunny hop league is a fast paced parkour game which is making use of the famous bunny hopping and surfing technique from Counter-Strike.
 by moving your mouse left and right you gain speed to finish the parkour first.
 
+## [Link to Steam ](https://store.steampowered.com/app/429780/Bunny_Hop_League/)
+
 **Position:**
 - Lead Developer.
 - Level Design.
 - Programming.
- 
-Bunny hop league is currently available on steam you can check it out here! [Link to Steam ](https://store.steampowered.com/app/429780/Bunny_Hop_League/)
 
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/bunnyhopleague/BhlExample.gif?raw=true)
 
@@ -44,6 +44,8 @@ Bunny hop league is currently available on steam you can check it out here! [Lin
 My current project is called Celestial it is a Co-op survival adventure. you take place as a Physicist astronaut who is tasked with testing the first warp drive created by humankind.
 but shortly after starting up the drive and beginning the test strange things start to happen the warp drive starts to overhead and an abyss looking like a black hole starts to emerge in front of your ship,
 the next thing you remember is waking up above an unknown planet with no clue on what just happen or how to get back.
+
+## [Link to Itch.io](https://devin413.itch.io/celestial)
 
 **Position:**
 - Lead Developer.
