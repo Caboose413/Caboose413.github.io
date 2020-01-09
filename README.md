@@ -80,8 +80,10 @@ this was one of the easier parts, the next issue was how to create responsive mo
 
 So I started off with using a sphere trace which always points down and then take the impact location and move it up based on our current upvector.
 
-{% highlight c++ %}const FVector Location = Parent->GetActorLocation();
-const FVector EndTrace = Location + (CapsuleComp->GetUpVector() * -1) * 5000.0f;
-const bool isHit = GetWorld()->SweepSingleByChannel(OutHit, Location, EndTrace, FQuat::Identity, ECC_Camera, FCollisionShape::MakeSphere(6.0f));
+{% highlight c++ %}
+float Height = 88.0f
+const FVector StartTrace = Parent->GetActorLocation();
+const FVector EndTrace = tartTrace + (CapsuleComp->GetUpVector() * -1) * 5000.0f;
+const bool isHit = GetWorld()->SweepSingleByChannel(OutHit, tartTrace, EndTrace, FQuat::Identity, ECC_Camera, FCollisionShape::MakeSphere(6.0f));
 FVector FloatingLocation = OutHit.Location + (CapsuleComp->GetUpVector() * Height);
 Parent->SetActorLocationAndRotation(FloatingLocation, AlignRotation, true, &SweepWalkCheck, ETeleportType::None); {% endhighlight %}
