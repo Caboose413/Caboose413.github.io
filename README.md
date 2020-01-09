@@ -70,26 +70,33 @@ the next thing you remember is waking up above an unknown planet with no clue on
 
 # Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
-+ modified engine falling state to make AirAcceleration work in any direction.
+modified engine falling state to make AirAcceleration work in any direction.
+
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/CustomMovement.gif?raw=true)
 
 # Custom AI
 fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
+
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/AiSystem.gif?raw=true)
 
 # Inventory
 Inventory system with drag and drop, transferring items between inventories.
+
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Inv.gif?raw=true)
 
 # Machine Cluster System.
 Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
-energy can also be produced by Solarpannels and other machines. the cluster system will calculate an energy delta form all machines and then add or remove energy from batteries.
+energy can also be produced by Solarpannels and other machines.
+the cluster system will calculate an energy delta form all machines and then add or remove energy from batteries.
+
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/NoteSystem.gif?raw=true)
 
 # Status System.
 The Status system takes care of the Players states like Health, Oxygen, Food, and Water.
+
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Status.gif?raw=true)
 
 # Save System
 Save system which saves all dynamic objects like the Player, Machines and their Inventory, Ai.
+
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/SaveSystemGif.gif?raw=true)
