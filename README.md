@@ -56,6 +56,9 @@ the next thing you remember is waking up above an unknown planet with no clue on
 - Programming.
 
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/CelestialGif01.gif?raw=true)
+![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00140.png?raw=true)
+![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00141.png?raw=true)
+
 
 ### Content of this project:
 
@@ -83,3 +86,5 @@ energy can also be produced by Solarpannels and other machines. the cluster syst
 # Status System.
 The Status system takes care of the Players states like Health, Oxygen, Food, and Water.
 
+# Save System
+Save system which saves all dynamic objects like the Player, Machines and their Inventory, Ai.
