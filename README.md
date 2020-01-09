@@ -17,6 +17,7 @@ on how to create user-friendly code, and what is actually needed for other membe
 The Facility is a survival horror game playing shortly after the 2nd world war. you play as Nathan who has been searching for a hidden Nazi bunker
 which is supposed to be full of treasure. but little did you know about the real reasons why you were trying to find the bunker.
 
+**Team Size: 5**
 **Position:**
 - Co-Lead Developer.
 - 3D Modeling.
@@ -32,6 +33,7 @@ by moving your mouse left and right you gain speed to finish the parkour first.
 
 ## [Link to Steam ](https://store.steampowered.com/app/429780/Bunny_Hop_League/)
 
+**Team Size: 3**
 **Position:**
 - Lead Developer.
 - Level Design.
@@ -54,6 +56,7 @@ the next thing you remember is waking up above an unknown planet with no clue on
 
 ## [Link to Steam](https://store.steampowered.com/app/1194910/Celestial/)
 
+**Team Size: 1**
 **Position:**
 - Lead Developer.
 - Level Design.
