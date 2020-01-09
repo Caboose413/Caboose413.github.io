@@ -41,7 +41,7 @@ by moving your mouse left and right you gain speed to finish the parkour first.
 - **Item trade:** trade various items that you can earn by finishing parkours!
 
 ## Celestial
-2018-2019
+2018-Now
 
 My current project is called Celestial it is a Co-op survival adventure. you take place as a Physicist astronaut who is tasked with testing the first warp drive created by humankind.
 but shortly after starting up the drive and beginning the test strange things start to happen the warp drive starts to overhead and an abyss looking like a black hole starts to emerge in front of your ship,
