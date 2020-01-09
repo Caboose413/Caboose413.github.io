@@ -1,10 +1,15 @@
 # Resume.
 
-Hello, my name is Caboose I'm a 26-year-old indie game developer from Germany.
-I've been using the unreal engine since 2014, sofar I have been working on 3 different titles.
+
+Hello, my name is Devin I'm a 26-year-old indie game developer from Germany.
+I've been using the unreal engine 4 now since 2014, sofar I have been working on 3 different titles.
 
 my skills range from 3D Modeling, Animation, material programming to coding with BP/C++. 
+
 one of the most important parts for me is to keeping track of performance and optimization.
+
+I'm pretty much an allrounder who knows a bit about most fields of game development, this gives me a really good understanding
+on how to create user-friendly code, and what is actually needed for other members of the team.
 
 ## The Facility
 2014-2016
