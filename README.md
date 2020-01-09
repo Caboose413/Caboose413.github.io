@@ -97,6 +97,6 @@ The Status system takes care of the Players states like Health, Oxygen, Food, an
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Status.gif?raw=true)
 
 # Save System
-Save system which saves all dynamic objects like the Player, Machines and their Inventory, Ai.
+Save system which saves all dynamic objects like the Player, Ai, Machines and their Inventory.
 
 ![Image of Yaktocat](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/SaveSystemGif.gif?raw=true)
