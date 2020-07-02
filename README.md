@@ -8,9 +8,6 @@ my skills range from 3D Modeling, Animation, material programming to coding with
 
 one of the most important parts for me is to keeping track of performance and optimization.
 
-I'm pretty much an allrounder who knows a bit about most fields of game development, this gives me a really good understanding
-on how to create user-friendly code, and what is actually needed for other members of the team.
-
 ## The Facility
 2014-2016
 
@@ -18,6 +15,7 @@ The Facility is a survival horror game playing shortly after the 2nd world war. 
 which is supposed to be full of treasure. but little did you know about the real reasons why you were trying to find the bunker.
 
 **Team Size: 5**
+
 **Position:**
 - Co-Lead Developer.
 - 3D Modeling.
