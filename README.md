@@ -16,7 +16,7 @@ which is supposed to be full of treasure. but little did you know about the real
 
 **Team Size: 5**
 
-**Position:**
+
 - Co-Lead Developer.
 - 3D Modeling.
 - Level Design.
