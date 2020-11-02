@@ -92,7 +92,6 @@ fully custom ai with a custom behavior tree and runtime pathfinding and Abilitie
 Inventory system with drag and drop, transferring items between inventories.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Inv.gif?raw=true)
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/7Dfmj3kCIL.mp4?raw=true)
 
 <video autoplay="autoplay" loop="loop" width="768" height="512">
   <source src="/assets/Celestial/7Dfmj3kCIL.mp4" type="video/mp4">
