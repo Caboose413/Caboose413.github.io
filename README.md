@@ -93,9 +93,6 @@ Inventory system with drag and drop, transferring items between inventories.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Inv.gif?raw=true)
 
-<video autoplay muted loop width="768" height="512">
-  <source src="/assets/Celestial/7Dfmj3kCIL.mp4" type="video/mp4">
-</video>
 
 ## Machine Cluster System.
 Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
@@ -113,3 +110,15 @@ The Status system takes care of the Players states like Health, Oxygen, Food, an
 Save system which saves all dynamic objects like Sun Position, Players Location and Inventory, Ai, Machines and their Inventory.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/SaveSystemGif.gif?raw=true)
+
+## Other Code
+
+Shoot Angle calculation for Mortars and Machineguns
+
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/DKOK/Mortar.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/DKOK/MG.mp4" type="video/mp4">
+</video>
