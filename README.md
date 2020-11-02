@@ -119,13 +119,13 @@ Save system which saves all dynamic objects like Sun Position, Players Location 
 Shoot Angle calculation for Mortars and Machineguns
 
 <video autoplay muted loop width="768" height="512">
-  <source src="/assets/DKOK/Mortar.mp4" type="video/mp4">
+  <source src="/assets/other/Mortar.mp4" type="video/mp4">
 </video>
 
 <video autoplay muted loop width="768" height="512">
-  <source src="/assets/DKOK/MG.mp4" type="video/mp4">
+  <source src="/assets/other/MG.mp4" type="video/mp4">
 </video>
 
 
 ## End
-Hope this gives you a good overview of my abilities feel free to contact me vida Discrod or Mail for requests.
+Hope this gives you a good overview of my abilities feel free to contact me via Discrod or Mail for requests.
