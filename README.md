@@ -109,6 +109,8 @@ the cluster system will calculate an energy delta form all machines and then add
 The Status system takes care of the Players states like Health, Oxygen, Food, and Water and Heat.
 Also Heat will effect food and water consumtion.
 My Status system is up on my github as a code example.
+## [Link](https://github.com/Caboose413/CodeExamples/tree/master/StatusComponent)
+
 
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
