@@ -57,7 +57,7 @@ the next thing you remember is waking up above an unknown planet with no clue on
 
 ## [Link to Steam](https://store.steampowered.com/app/1194910/Celestial/)
 
-**Team Size: 3**
+**Team Size: 1**
 
 **Position:**
 - Lead Developer.
@@ -80,13 +80,15 @@ the next thing you remember is waking up above an unknown planet with no clue on
 
 ## Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/CustomMovement.gif?raw=true)
-
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/Celestial/MP.mp4" type="video/mp4">
+</video>
 
 
 
 ## Custom AI
 fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
+
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/AiSystem.gif?raw=true)
 
 
@@ -149,6 +151,15 @@ Shoot Angle calculation to hit a specific location for Mortars and Machineguns
   <source src="/assets/other/MG.mp4" type="video/mp4">
 </video>
 
+### Dedicated Server with Steam integration
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/other/Dedicated.mp4" type="video/mp4">
+</video>
+
+
 
 ## End
 Hope this gives you a good overview of my abilities feel free to contact me via Discrod or Mail for requests.
+
+Mail:pipolygames@gmail.com
+Discord:Caboose413#1759
