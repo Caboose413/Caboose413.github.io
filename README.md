@@ -7,6 +7,8 @@ I've been using the unreal engine 4 now since 2014, sofar I have been working on
 I mainly focus on Programming with C++ and BP
 
 but I also got knownlege in 3D Modeling, Animation, material programming, and Level Deisgn, 
+## [Link to ArtStation](https://www.artstation.com/caboose413)
+
 
 one of the most important parts for me is to keeping track of performance and optimization.
 
@@ -121,7 +123,7 @@ The Status system takes care of the Players states like Health, Oxygen, Food, an
 Also Heat will effect food and water consumtion.
 My Status system is up on my github as a code example.
 ## [Link](https://github.com/Caboose413/CodeExamples/tree/master/StatusComponent)
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="768" height="256">
   <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
 </video>
 
