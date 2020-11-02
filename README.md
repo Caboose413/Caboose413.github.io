@@ -87,9 +87,11 @@ Custom Planet Character Movement with engine integration and making use of the e
 
 
 ## Custom AI
-fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
+Fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
 
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/AiSystem.gif?raw=true)
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/Celestial/Ai.mp4" type="video/mp4">
+</video>
 
 
 
