@@ -94,7 +94,7 @@ Inventory system with drag and drop, transferring items between inventories.
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Inv.gif?raw=true)
 
 <video autoplay muted loop width="768" height="512">
-  <source src="/assets/Celestial/7Dfmj3kCIL.mp4" type="video/mp4">
+  <source src="/assets/Celestial/MG.mp4" type="video/mp4">
 </video>
 
 ## Machine Cluster System.
