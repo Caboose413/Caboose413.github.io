@@ -81,7 +81,7 @@ the next thing you remember is waking up above an unknown planet with no clue on
 ## Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
 <video autoplay muted loop width="768" height="512">
-  <source src="/assets/Celestial/MP.mp4" type="video/mp4">
+  <source src="/assets/Celestial/PlanetMovement.mp4" type="video/mp4">
 </video>
 
 
