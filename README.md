@@ -94,6 +94,10 @@ Inventory system with drag and drop, transferring items between inventories.
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Inv.gif?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/7Dfmj3kCIL.mp4?raw=true)
 
+<video autoplay="autoplay" loop="loop" width="768" height="512">
+  <source src="/assets/Celestial/7Dfmj3kCIL.mp4" type="7Dfmj3kCIL/mp4">
+</video>
+
 ## Machine Cluster System.
 Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
 energy can also be produced by Solarpanels and other machines.
