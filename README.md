@@ -125,3 +125,7 @@ Shoot Angle calculation for Mortars and Machineguns
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/DKOK/MG.mp4" type="video/mp4">
 </video>
+
+
+## End
+Hope this gives you a good overview of my abilities feel free to contact me vida Discrod or Mail for requests.
