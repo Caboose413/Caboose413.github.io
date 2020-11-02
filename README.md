@@ -4,7 +4,9 @@
 Hello, my name is Devin I'm a 27-year-old indie game developer from Germany.
 I've been using the unreal engine 4 now since 2014, sofar I have been working on 3 different titles.
 
-my skills range from 3D Modeling, Animation, material programming to coding with BP/C++. 
+I mainly focus on Programming with C++ and BP
+
+but I also got knownlege in 3D Modeling, Animation, material programming, and Level Deisgn, 
 
 one of the most important parts for me is to keeping track of performance and optimization.
 
@@ -90,6 +92,7 @@ fully custom ai with a custom behavior tree and runtime pathfinding and Abilitie
 Inventory system with drag and drop, transferring items between inventories.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Inv.gif?raw=true)
+![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/7Dfmj3kCIL.mp4?raw=true)
 
 ## Machine Cluster System.
 Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
