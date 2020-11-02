@@ -122,7 +122,7 @@ Custom Editor camera which aligns itself to the planet.
 this required a few changes to the Engine source code.
 
 <video autoplay muted loop width="768" height="512">
-  <source src="/assets/other/Mortar.mp4" type="video/mp4">
+  <source src="/assets/other/EditorCamera.mp4" type="video/mp4">
 </video>
 
 
