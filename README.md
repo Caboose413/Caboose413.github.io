@@ -91,32 +91,44 @@ fully custom ai with a custom behavior tree and runtime pathfinding and Abilitie
 ## Inventory
 Inventory system with drag and drop, transferring items between inventories.
 
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Inv.gif?raw=true)
-
 <video autoplay muted loop width="768" height="512">
-  <source src="/assets/Celestial/MG.mp4" type="video/mp4">
+  <source src="/assets/Celestial/Inventory.mp4" type="video/mp4">
 </video>
+
 
 ## Machine Cluster System.
 Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
 energy can also be produced by Solarpanels and other machines.
 the cluster system will calculate an energy delta form all machines and then add or remove energy from batteries.
 
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/NoteSystem.gif?raw=true)
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
+</video>
 
 ## Status System.
 The Status system takes care of the Players states like Health, Oxygen, Food, and Water.
 
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/Status.gif?raw=true)
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
+</video>
 
 ## Save System
 Save system which saves all dynamic objects like Sun Position, Players Location and Inventory, Ai, Machines and their Inventory.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/SaveSystemGif.gif?raw=true)
 
+
+Custom Editor camera which aligns itself to the planet.
+this required a few changes to the Engine source code.
+
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/other/Mortar.mp4" type="video/mp4">
+</video>
+
+
 ## Other Code
 
-Shoot Angle calculation for Mortars and Machineguns
+Shoot Angle calculation to hit a specific location for Mortars and Machineguns
 
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/other/Mortar.mp4" type="video/mp4">
