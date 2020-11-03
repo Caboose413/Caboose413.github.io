@@ -1,12 +1,9 @@
-# Resume.
-
-
-Hello, my name is Devin I'm a indie game developer from Germany.
-I been using the unreal engine 4 now since 2014, sofar I have been working on many different titles.
+Hello, my name is Devin I'm an indie game developer from Germany.
+I have been using the unreal engine 4 now since 2014, sofar I have been working on many different titles.
 
 I mainly focus on Programming with C++ and BP
 
-but I also got knownlege in 3D Modeling, Animation, material programming, and Level Deisgn, 
+but I also got knowledge in 3D Modeling, Animation, material programming, and Level Design, 
 ## [Link to ArtStation](https://www.artstation.com/caboose413)
 
 
@@ -48,7 +45,7 @@ by moving your mouse left and right you gain speed to finish the parkour.
 
 - **Parkour:** a key aspect of BHL is to figure out and learn what the best route is in each parkour!
 - **Multiplayer:** play against your friends and race for the fastest time!
-- **Item trade:** Eqiup/Trade various items that you can earn by finishing parkours!
+- **Item trade:** Equip/Trade various items that you can earn by finishing parkours!
 
 ## Celestial
 2018 - Today
@@ -80,7 +77,7 @@ the next thing you remember is waking up above an unknown planet with no clue on
 ## GrimmStar
 2020 - Today
 
-GrimmStar is a vast open world Space shooter playing in a Universe where an Alien race has chased off the Human race from earth.
+GrimmStar is a vast open-world Space shooter playing in a Universe where an Alien race has chased off the Human race from earth.
 now it's up to you to ensure the survival of the Last Humans Alive.
 
 **Team Size: 8**
@@ -126,8 +123,8 @@ Inventory system with drag and drop, transferring items between inventories.
 
 ## Machine Cluster System.
 Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
-energy can also be produced by Solarpanels and other machines.
-the cluster system will calculate an energy delta form all machines and then add or remove energy from batteries.
+energy can also be produced by Solar panels and other machines.
+the cluster system will calculate an energy delta from all machines and then add or remove energy from batteries.
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
 </video>
@@ -136,9 +133,9 @@ the cluster system will calculate an energy delta form all machines and then add
 
 
 ## Status System.
-The Status system takes care of the Players states like Health, Oxygen, Food, Water and Heat.
-Also Heat will effect food and water consumtion.
-My Status system is up on my github as a code example.
+The Status system takes care of the Players states like Health, Oxygen, Food, Water, and Heat.
+Also, Heat will affect food and water consumption.
+My Status system is up on my GitHub as a code example.
 ## [Link](https://github.com/Caboose413/CodeExamples/tree/master/StatusComponent)
 <video autoplay muted loop width="768" height="256">
   <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
@@ -148,18 +145,18 @@ My Status system is up on my github as a code example.
 
 
 ## Save System
-Save system which saves all dynamic objects like Sun Position, Players Location and Inventory, Ai, Machines and their Inventory.
+Save system which saves all dynamic objects like Sun Position, Players Location and Inventory, Ai, Machines, and their Inventory.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/SaveSystemGif.gif?raw=true)
 
 
 
-
-Custom Editor camera which aligns itself to the planet.
-this required a few changes to the Engine source code.
+Engine source modified Editor camera to allow rotation alignment to the planet.
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
 </video>
+
+
 
 
 # Grimmstar
@@ -178,6 +175,7 @@ this required a few changes to the Engine source code.
 
 
 
+
 ## Other Code
 Shoot Angle calculation to hit a specific location for Mortars and Machineguns
 <video autoplay muted loop width="768" height="512">
@@ -193,10 +191,3 @@ Shoot Angle calculation to hit a specific location for Mortars and Machineguns
   <source src="/assets/other/Dedicated.mp4" type="video/mp4">
 </video>
 
-
-
-## End
-Hope this gives you a good overview of my abilities feel free to contact me via Discrod or Mail for requests.
-
-Mail:pipolygames@gmail.com
-Discord:Caboose413#1759
