@@ -96,7 +96,7 @@ now it's up to you to ensure the survival of the Last Humans Alive.
 
 ## Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/PlanetMovement.mp4" type="video/mp4">
 </video>
 
@@ -105,7 +105,7 @@ Custom Planet Character Movement with engine integration and making use of the e
 ## Custom AI
 Fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
 
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/Ai.mp4" type="video/mp4">
 </video>
 
@@ -114,7 +114,7 @@ Fully custom ai with a custom behavior tree and runtime pathfinding and Abilitie
 
 ## Inventory
 Inventory system with drag and drop, transferring items between inventories.
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/Inventory.mp4" type="video/mp4">
 </video>
 
@@ -125,7 +125,7 @@ Inventory system with drag and drop, transferring items between inventories.
 Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
 energy can also be produced by Solar panels and other machines.
 the cluster system will calculate an energy delta from all machines and then add or remove energy from batteries.
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
 </video>
 
@@ -153,7 +153,7 @@ Save system which saves all dynamic objects like Sun Position, Players Location 
 
 
 Engine source modified Editor camera to allow rotation alignment to the planet.
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
 </video>
 
@@ -166,11 +166,11 @@ Engine source modified Editor camera to allow rotation alignment to the planet.
 - Homing missile logic.
 - Mission System.
 
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/grimm/vid1.mp4" type="video/mp4">
 </video>
 
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/grimm/vid2.mp4" type="video/mp4">
 </video>
 
@@ -179,20 +179,21 @@ Engine source modified Editor camera to allow rotation alignment to the planet.
 
 ## Other Code
 Shoot Angle calculation to hit a specific location for Mortars and Machineguns
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/other/Mortar.mp4" type="video/mp4">
 </video>
 
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/other/MG.mp4" type="video/mp4">
 </video>
 
 Equation Used
+
 ![Other](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/other/eq.jpg?raw=true)
 
 
 ### Dedicated Server with Steam integration
-<video autoplay muted loop width="768" height="512">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/other/Dedicated.mp4" type="video/mp4">
 </video>
 
