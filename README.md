@@ -187,6 +187,10 @@ Shoot Angle calculation to hit a specific location for Mortars and Machineguns
   <source src="/assets/other/MG.mp4" type="video/mp4">
 </video>
 
+Equation Used
+![Other](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/other/eq.jpg?raw=true)
+
+
 ### Dedicated Server with Steam integration
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/other/Dedicated.mp4" type="video/mp4">
