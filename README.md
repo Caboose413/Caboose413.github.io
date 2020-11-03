@@ -1,8 +1,8 @@
 # Resume.
 
 
-Hello, my name is Devin I'm a 27-year-old indie game developer from Germany.
-I've been using the unreal engine 4 now since 2014, sofar I have been working on 3 different titles.
+Hello, my name is Devin I'm a indie game developer from Germany.
+I been using the unreal engine 4 now since 2014, sofar I have been working on many different titles.
 
 I mainly focus on Programming with C++ and BP
 
@@ -51,7 +51,7 @@ by moving your mouse left and right you gain speed to finish the parkour.
 - **Item trade:** Eqiup/Trade various items that you can earn by finishing parkours!
 
 ## Celestial
-2018
+2018 - Today
 
 My current project is called Celestial it is a Co-op survival adventure. you take place as a Physicist astronaut who is tasked with testing the first warp drive created by humankind.
 but shortly after starting up the drive and beginning the test strange things start to happen the warp drive starts to overhead and an abyss looking like a black hole starts to emerge in front of your ship,
@@ -67,7 +67,6 @@ the next thing you remember is waking up above an unknown planet with no clue on
 - 3D Modeling.
 - Programming.
 
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/CelestialGif01.gif?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00140.png?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00141.png?raw=true)
 
@@ -78,7 +77,25 @@ the next thing you remember is waking up above an unknown planet with no clue on
 - **Survive:** Survive in a hostile environment against alien creatures and machines.
 - **Co-op:** Play and survive together with friends and explore a new world!
 
-# Celestial Features.
+## GrimmStar
+2020 - Today
+
+GrimmStar is a vast open world Space shooter playing in a Universe where an Alien race has chased off the Human race from earth.
+now it's up to you to ensure the survival of the Last Humans Alive.
+
+**Team Size: 8**
+
+**Position:**
+- Programmer
+
+![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
+![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
+
+
+# Code Examples
+
+
+# Celestial
 
 ## Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
@@ -143,6 +160,22 @@ this required a few changes to the Engine source code.
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
 </video>
+
+
+# Grimmstar
+## [Devlog](https://www.youtube.com/watch?v=jqQypQANVyw)
+- AI programming.
+- Homing missile logic.
+- Mission System.
+
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/grimm/vid1.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop width="768" height="512">
+  <source src="/assets/grimm/vid2.mp4" type="video/mp4">
+</video>
+
 
 
 ## Other Code
