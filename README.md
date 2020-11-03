@@ -151,6 +151,7 @@ Save system which saves all dynamic objects like Sun Position, Players Location 
 
 
 
+
 Engine source modified Editor camera to allow rotation alignment to the planet.
 <video autoplay muted loop width="768" height="512">
   <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
@@ -160,7 +161,7 @@ Engine source modified Editor camera to allow rotation alignment to the planet.
 
 
 # Grimmstar
-## [Devlog](https://www.youtube.com/watch?v=jqQypQANVyw)
+## [Link to Devlog Youtube](https://www.youtube.com/watch?v=jqQypQANVyw)
 - AI programming.
 - Homing missile logic.
 - Mission System.
