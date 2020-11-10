@@ -51,8 +51,8 @@ by moving your mouse left and right you gain speed to finish the parkour.
 ## Celestial
 2018 - Today
 
-My current project is called Celestial it is a Co-op survival adventure. you take place as a Physicist astronaut who is tasked with testing the first warp drive created by humankind.
-but shortly after starting up the drive and beginning the test strange things start to happen the warp drive starts to overhead and an abyss looking like a black hole starts to emerge in front of your ship,
+Celestial is a Co-op survival adventure which takes place on an Alien planet. You Play as a Physicist astronaut who is tasked with testing the first warp drive created by humankind.
+but shortly after starting up the drive and beginning the test strange things start to happen the warp drive starts to overhead and an abyss starts to emerge sucking in you and your ship,
 the next thing you remember is waking up above an unknown planet with no clue on what just happen or how to get back.
 
 ## [Link to Steam](https://store.steampowered.com/app/1194910/Celestial/)
@@ -72,7 +72,7 @@ the next thing you remember is waking up above an unknown planet with no clue on
 ### Content of this project:
 
 - **Vast World:** Play on a Spherical world of 380km2 no borders or walls to stop you!
-- **Survive:** Survive in a hostile environment against alien creatures and machines.
+- **Survive:** Survive in a hostile environment with Torandos, Sandstorm and Meteors and fight against alien creatures.
 - **Co-op:** Play and survive together with friends and explore a new world!
 
 ## GrimmStar
@@ -92,9 +92,7 @@ now it's up to you to ensure the survival of the Last Humans Alive.
 
 # Code Examples
 
-
 # Celestial
-
 ## Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
 <video autoplay muted loop width="912" height="512">
@@ -123,9 +121,11 @@ Inventory system with drag and drop, transferring items between inventories.
 
 
 ## Machine Cluster System.
-Cluster system which connects together all sorts of Machines by using notes. also manages energy usage in the hole cluster every machine needs energy,
-energy can also be produced by Solar panels and other machines.
-the cluster system will calculate an energy delta from all machines and then add or remove energy from batteries.
+Note System which connects together all machines within a certain range.
+Enables Crafting Benches to access and distribute into every storage unit inside the network.
+the network also manages energy for each machine by transferring power from a power source, 
+for example, a Battery or Solarpannel.
+
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
 </video>
