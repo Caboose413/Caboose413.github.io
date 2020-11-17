@@ -187,7 +187,7 @@ the Project is also open source.
   <source src="/assets/Zerog/zerofly.mp4" type="video/mp4">
 </video>
 
-![Source Code](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/zerog/zerosource.jpg?raw=true)
+![Source Code](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Zerog/zerosource.jpg?raw=true)
 
 
 
