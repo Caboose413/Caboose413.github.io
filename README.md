@@ -183,7 +183,7 @@ the Project is also open source.
 
 ## [ZeroG Source](https://github.com/Caboose413/ZeroG)
 
-<video autoplay muted loop width="768" height="256">
+<video autoplay muted loop width="912" height="512">
   <source src="/assets/Zerog/zerofly.mp4" type="video/mp4">
 </video>
 
