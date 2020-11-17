@@ -178,7 +178,7 @@ Engine source modified Editor camera to allow rotation alignment to the planet.
 
 
 # ZeroG
-ZeroG is a Purley Portfolio project to demonstrate my coding standards and abilities.
+ZeroG is a Portfolio project to demonstrate my coding standards and abilities.
 the Project is also open source.
 
 ## [ZeroG Source](https://github.com/Caboose413/ZeroG)
