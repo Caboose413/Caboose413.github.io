@@ -92,7 +92,9 @@ now it's up to you to ensure the survival of the Last Humans Alive.
 
 **Position:**
 - Lead Programmer
+
 	-Ai Design.
+	
 	-Mission System.
 
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
