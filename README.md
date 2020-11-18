@@ -85,13 +85,15 @@ the next thing you remember is waking up above an unknown planet with no clue on
 ## GrimmStar
 2020 - Today
 
-GrimmStar is a vast open-world Space shooter playing in a Universe where an Alien race has chased off the Human race from earth.
+GrimmStar is a vast open-world Space shooter playing in a Universe where Aliens have chased off the Human race from earth.
 now it's up to you to ensure the survival of the Last Humans Alive.
 
 **Team Size: 8**
 
 **Position:**
-- Programmer
+- Lead Programmer
+	-Ai Design.
+	-Mission System.
 
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
