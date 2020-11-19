@@ -100,6 +100,14 @@ now it's up to you to ensure the survival of the Last Humans Alive.
 # Code Examples
 
 # Celestial
+
+## Custom Editor Camera
+Engine source modified Editor camera to allow rotation alignment to the planet.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
+</video>
+
+
 ## Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
 <video autoplay muted loop width="912" height="512">
@@ -152,14 +160,6 @@ My Status system is up on my GitHub as a code example.
 
 
 
-Engine source modified Editor camera to allow rotation alignment to the planet.
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
-</video>
-
-
-
-
 # Grimmstar
 ## [Link to Devlog Youtube](https://www.youtube.com/watch?v=jqQypQANVyw)
 - AI programming.
@@ -179,7 +179,7 @@ Engine source modified Editor camera to allow rotation alignment to the planet.
 
 # ZeroG
 ZeroG is a Portfolio project to demonstrate my coding standards and abilities.
-the Project is also open source.
+the Project is open source and you can find a link to the Source below.
 
 ## [ZeroG Source](https://github.com/Caboose413/ZeroG)
 
