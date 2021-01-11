@@ -203,14 +203,16 @@ Shoot Angle calculation to hit a specific location for Mortars and Machineguns
 </video>
 
 Equation Used
+![Other](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/other/eq.jpg?raw=true)
+
+
 
 
 Physics Based block build system with Programmable blocks.
 <video autoplay muted loop width="912" height="512">
-  <source src="/assets/other/blockbuildme.mp4" type="video/mp4">
+  <source src="/assets/other/blockbuildne.mp4" type="video/mp4">
 </video>
 
-![Other](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/other/eq.jpg?raw=true)
 
 
 ### Dedicated Server with Steam integration
