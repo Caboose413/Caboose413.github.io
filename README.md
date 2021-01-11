@@ -203,6 +203,7 @@ Shoot Angle calculation to hit a specific location for Mortars and Machineguns
 </video>
 
 Equation Used
+
 ![Other](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/other/eq.jpg?raw=true)
 
 
