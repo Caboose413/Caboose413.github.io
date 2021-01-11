@@ -211,7 +211,7 @@ Equation Used
 
 Physics Based block build system with Programmable blocks.
 <video autoplay muted loop width="912" height="512">
-  <source src="/assets/other/blockbuildne.mp4" type="video/mp4">
+  <source src="/assets/other/blockbuild.mp4" type="video/mp4">
 </video>
 
 
