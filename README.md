@@ -120,7 +120,7 @@ Custom Planet Character Movement with engine integration and making use of the e
 Fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
 
 <video autoplay muted loop width="912" height="512">
-  <source src="/assets/Celestial/Ai.mp4" type="video/mp4">
+  <source src="/assets/Celestial/newAi.mp4" type="video/mp4">
 </video>
 
 
