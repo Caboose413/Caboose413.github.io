@@ -152,7 +152,7 @@ for example, a Battery or Solarpannel.
 The Status system takes care of the Players states like Health, Oxygen, Food, Water, and Heat.
 Also, Heat will affect food and water consumption.
 My Status system is up on my GitHub as a code example.
-## [Link](https://github.com/Caboose413/CodeExamples/tree/master/StatusComponent)
+## [Link](https://github.com/Caboose413/Caboose413.github.io/tree/master/assets/code/StatusComp)
 <video autoplay muted loop width="768" height="256">
   <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
 </video>
