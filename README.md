@@ -104,10 +104,9 @@ now it's up to you to ensure the survival of the Last Humans Alive.
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
 
 
+# ------------------------------------------------------------------------------------------------
 ## Codeing Examples
 
-
-# ------------------------------------------------------------------------------------------------
 # Celestial
 
 ## Custom Editor Camera
