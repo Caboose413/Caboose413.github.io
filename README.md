@@ -14,7 +14,7 @@ Contact.
 Discord:Caboose413#1759
 
 Email:Caboose4131@gmail.com
-
+------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
 # The Facility
@@ -32,7 +32,7 @@ which is supposed to be full of treasure. but little did you know about the real
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_34395fe17e090bbb9302f7e80c7f7001aa653b92.1920x1080.jpg?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_982f52469469140dc627cb7a15df0dbfb88b6b76.1920x1080.jpg?raw=true)
-
+------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
 # Bunny hop league
@@ -57,7 +57,7 @@ by moving your mouse left and right you gain speed to finish the parkour.
 - **Parkour:** a key aspect of BHL is to figure out and learn what the best route is in each parkour!
 - **Multiplayer:** play against your friends and race for the fastest time!
 - **Item trade:** Equip/Trade various items that you can earn by finishing parkours!
-
+------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
 # Celestial
@@ -86,7 +86,7 @@ the next thing you remember is waking up above an unknown planet with no clue on
 - **Vast World:** Play on a Spherical world of 380km2 no borders or walls to stop you!
 - **Survive:** Survive in a hostile environment with Torandos, Sandstorm and Meteors and fight against alien creatures.
 - **Co-op:** Play and survive together with friends and explore a new world!
-
+------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
 # GrimmStar
@@ -102,9 +102,9 @@ now it's up to you to ensure the survival of the Last Humans Alive.
 
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
+------------------------------------------------------------------------------------------------
 
-
-# ------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 ## Codeing Examples
 
 # Celestial
@@ -115,7 +115,7 @@ Engine source modified Editor camera to allow rotation alignment to the planet.
   <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
 </video>
 
-
+------------------------------------------------------------------------------------------------
 
 ## Custom Movement
 Custom Planet Character Movement with engine integration and making use of the engines Multiplayer client prediction.
@@ -123,7 +123,7 @@ Custom Planet Character Movement with engine integration and making use of the e
   <source src="/assets/Celestial/PlanetMovement.mp4" type="video/mp4">
 </video>
 
-
+------------------------------------------------------------------------------------------------
 
 ## Custom AI
 Fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
@@ -132,7 +132,7 @@ Fully custom ai with a custom behavior tree and runtime pathfinding and Abilitie
   <source src="/assets/Celestial/newAi.mp4" type="video/mp4">
 </video>
 
-
+------------------------------------------------------------------------------------------------
 
 ## Inventory
 Inventory system with drag and drop, transferring items between inventories.
@@ -140,7 +140,7 @@ Inventory system with drag and drop, transferring items between inventories.
   <source src="/assets/Celestial/Inventory.mp4" type="video/mp4">
 </video>
 
-
+------------------------------------------------------------------------------------------------
 
 ## Machine Cluster System.
 Note System which connects together all machines within a certain range.
@@ -152,7 +152,7 @@ for example, a Battery or Solarpannel.
   <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
 </video>
 
-
+------------------------------------------------------------------------------------------------
 
 ## Status System.
 The Status system takes care of the Players states like Health, Oxygen, Food, Water, and Heat.
@@ -162,8 +162,7 @@ My Status system is up on my GitHub as a code example.
 <video autoplay muted loop width="768" height="256">
   <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
 </video>
-
-
+------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
 # Grimmstar
@@ -179,7 +178,7 @@ My Status system is up on my GitHub as a code example.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/grimm/vid2.mp4" type="video/mp4">
 </video>
-
+------------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------------
@@ -194,9 +193,9 @@ the Project is open source and you can find a link to the Source below.
 </video>
 
 ![Source Code](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Zerog/zerosource.jpg?raw=true)
+------------------------------------------------------------------------------------------------
 
-
-
+------------------------------------------------------------------------------------------------
 ## Other Code
 Shoot Angle calculation to hit a specific location for Mortars and Machineguns
 <video autoplay muted loop width="912" height="512">
@@ -210,16 +209,16 @@ Shoot Angle calculation to hit a specific location for Mortars and Machineguns
 Equation Used
 
 ![Other](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/other/eq.jpg?raw=true)
+------------------------------------------------------------------------------------------------
 
-
-
+------------------------------------------------------------------------------------------------
 Physics Based block build system with Programmable blocks.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/other/blockbuild.mp4" type="video/mp4">
 </video>
+------------------------------------------------------------------------------------------------
 
-
-
+------------------------------------------------------------------------------------------------
 ### Dedicated Server with Steam integration
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/other/Dedicated.mp4" type="video/mp4">
