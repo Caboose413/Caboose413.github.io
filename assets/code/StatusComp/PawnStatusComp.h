@@ -18,29 +18,29 @@ UENUM(BlueprintType)
 enum EStatus
 {
 	//Delta Describes the Increase or Decrease of a Value.
-	Health        UMETA(DisplayName = "Health"),
-    Blood        UMETA(DisplayName = "Blood"), 
-    Water         UMETA(DisplayName = "Water"),    
-    Food          UMETA(DisplayName = "Food"),   
-    Heat          UMETA(DisplayName = "Heat"),
-	Stamina          UMETA(DisplayName = "Stamina"),
+	Health        	UMETA(DisplayName = "Health"),
+	Blood        	UMETA(DisplayName = "Blood"), 
+	Water         	UMETA(DisplayName = "Water"),    
+	Food          	UMETA(DisplayName = "Food"),   
+    Heat          	UMETA(DisplayName = "Heat"),
+	Stamina         UMETA(DisplayName = "Stamina"),
     //Keep this the last entry so we know the lenght.
-    LastEntry          UMETA(DisplayName = "LastEntry")
+    LastEntry      	UMETA(DisplayName = "LastEntry")
 };    
 
 UENUM(BlueprintType)
 enum EStatusInfo
 {
-	Base         UMETA(DisplayName = "Base"),  
-    Max          UMETA(DisplayName = "Max"),
-    Min          UMETA(DisplayName = "Min")
+	Base         	UMETA(DisplayName = "Base"),
+	Max          	UMETA(DisplayName = "Max"),
+    Min          	UMETA(DisplayName = "Min")
 };  
 
 UENUM(BlueprintType)
 enum EStatusMeta
 {
-	StatusBase         UMETA(DisplayName = "StatusBase"),  
-    StatusDelta          UMETA(DisplayName = "StatusDelta")
+	StatusBase     	UMETA(DisplayName = "StatusBase"),  
+    StatusDelta    	UMETA(DisplayName = "StatusDelta")
 }; 
 
 USTRUCT(BlueprintType)
