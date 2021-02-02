@@ -107,7 +107,7 @@ now it's up to you to ensure the survival of the Last Humans Alive.
 ## Codeing Examples
 
 
-------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
 # Celestial
 
 ## Custom Editor Camera
@@ -141,7 +141,7 @@ Inventory system with drag and drop, transferring items between inventories.
   <source src="/assets/Celestial/Inventory.mp4" type="video/mp4">
 </video>
 
-/br
+
 
 ## Machine Cluster System.
 Note System which connects together all machines within a certain range.
