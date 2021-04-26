@@ -57,7 +57,7 @@ By moving your mouse left, and right you gain speed to finish the Parkour.
 
 ### key features:
 
-- ** Parkour:** a key aspect of BHL is to figure out and learn what the best route is in each Parkour!
+- **Parkour:** a key aspect of BHL is to figure out and learn what the best route is in each Parkour!
 - **Multiplayer:** play against your friends and race for the fastest time!
 - **Item trade:** Equip/Trade various items that you can earn by finishing parkours!
 
@@ -169,7 +169,7 @@ Now it's up to you to ensure the survival of the Last Humans Alive.
 # Epidemic
 2021 - Today
 
-Epidemic is a Openworld Survival game which place on an abondant russian island where strange events
+Epidemic is an Openworld Survival game which plays on an abundant Russian island where strange events
 start to emerge, you play as a journalist who is there to figure out what is going on.
 
 **Team Size: 2**
@@ -184,10 +184,19 @@ start to emerge, you play as a journalist who is there to figure out what is goi
 # Code
 
 ## Inventory System
-Flexible Inventory system which is build on Generic data which can be easily specalized to create all sorts of interaction.
+Flexible Inventory system which is built on Generic data which can be easily specialized to create all sorts of interaction.
 <video autoplay muted loop width="912" height="512">
-  <source src="/assets/other/blockbuild.mp4" type="video/mp4">
+  <source src="/assets/epidemic/inv.mp4" type="video/mp4">
 </video>
+
+## Inventory System
+Flexible Status system to control player health, food, water and all sorts of other effects on the player.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/epidemic/status.mp4" type="video/mp4">
+</video>
+
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
+
 
 
 ------------------------------------------------------------------------------------------------
