@@ -202,7 +202,7 @@ Easily add any status.
 
 ![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status1.jpg?raw=true)
 
-Ability to add effects for example to apply bleading to the player.
+Ability to add effects for example to apply bleeding to the player.
 
 ![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status2.jpg?raw=true)
 
