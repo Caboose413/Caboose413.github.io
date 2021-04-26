@@ -92,7 +92,53 @@ the next thing you remember is waking up above an unknown planet with no clue wh
 - **Survive:** Survive in a hostile environment with Tornados, Sandstorm, and Meteors and fight against alien creatures.
 - **Co-op:** Play and survive together with friends and explore a new world!
 
-# Code
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+# GrimmStar
+2020 - Today
+
+GrimmStar is a vast open-world Space shooter playing in a Universe where Aliens have chased off the Human race from earth.
+Now it's up to you to ensure the survival of the Last Humans Alive.
+
+**Team Size: 8**
+
+**Position:**
+- Lead Programmer
+
+![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
+![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+# Epidemic
+2021 - Today
+
+Epidemic is a Openworld Survival game which place on an abondant russian island where strange events
+start to emerge, you play as a journalist who is there to figure out what is going on.
+
+**Team Size: 2**
+
+**Position:**
+- Game Design
+- Lead Programmer
+
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+
+
+
+# Coding Examples
+
+## Celestial
 
 ## Custom Editor Camera
 Engine source modified editor camera to allow rotation alignment to the planet.
@@ -119,6 +165,14 @@ Fully custom ai with a custom behavior tree and runtime pathfinding and Abilitie
 
 ------------------------------------------------------------------------------------------------
 
+## Inventory
+Inventory system with drag and drop, transferring items between inventories.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/Celestial/Inventory.mp4" type="video/mp4">
+</video>
+
+------------------------------------------------------------------------------------------------
+
 ## Machine Cluster System.
 Note System, which connects together all machines within a certain range.
 Enables Crafting Benches to access and distribute into every storage unit inside the network.
@@ -130,25 +184,21 @@ for example, a Battery or Solarpannel.
 </video>
 
 ------------------------------------------------------------------------------------------------
+
+## Status System.
+The Status system takes care of the Player's states like Health, Oxygen, Food, Water, and Heat.
+Also, Heat will affect food and water consumption.
+My Status system is up on my GitHub as a code example.
+## [Link](https://github.com/Caboose413/Caboose413.github.io/tree/master/assets/code/StatusComp)
+<video autoplay muted loop width="768" height="256">
+  <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
+</video>
+
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
-# GrimmStar
-2020 - Today
-
-GrimmStar is a vast open-world Space shooter playing in a Universe where Aliens have chased off the Human race from earth.
-Now it's up to you to ensure the survival of the Last Humans Alive.
-
-**Team Size: 8**
-
-**Position:**
-- Lead Programmer
-
-![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
-![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
-
-# Code
-
+# Grimmstar
 ## [Link to Devlog Youtube](https://www.youtube.com/watch?v=jqQypQANVyw)
 - AI programming.
 - Homing missile logic.
@@ -161,34 +211,6 @@ Now it's up to you to ensure the survival of the Last Humans Alive.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/grimm/vid2.mp4" type="video/mp4">
 </video>
-
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
-
-# Epidemic
-2021 - Today
-
-Epidemic is a Openworld Survival game which place on an abondant russian island where strange events
-start to emerge, you play as a journalist who is there to figure out what is going on.
-
-**Team Size: 2**
-
-**Position:**
-- Game Design
-- Lead Programmer
-
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
-
-# Code
-
-## Inventory System
-Flexible Inventory system which is build on Generic data which can be easily specalized to create all sorts of interaction.
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/other/blockbuild.mp4" type="video/mp4">
-</video>
-
 
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
