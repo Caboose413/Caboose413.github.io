@@ -192,7 +192,7 @@ Flexible Inventory system which is built on Generic data which can be easily spe
 
 ## Status System
 Flexible Status system to control player health, food, water and all sorts of other effects on the player.
-<video autoplay muted loop width="912" height="512">
+<video autoplay muted loop width="310" height="74">
   <source src="/assets/epidemic/status.mp4" type="video/mp4">
 </video>
 
