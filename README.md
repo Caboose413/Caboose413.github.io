@@ -15,9 +15,7 @@ Discord: Caboose413#1759
 
 Email:Caboose4131@gmail.com
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 # The Facility
 2014-2016
@@ -34,9 +32,7 @@ The Facility is a survival horror game playing shortly after the 2nd world war. 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_34395fe17e090bbb9302f7e80c7f7001aa653b92.1920x1080.jpg?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_982f52469469140dc627cb7a15df0dbfb88b6b76.1920x1080.jpg?raw=true)
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 # Bunny hop league
 2016-2018
@@ -61,9 +57,7 @@ By moving your mouse left, and right you gain speed to finish the Parkour.
 - **Multiplayer:** play against your friends and race for the fastest time!
 - **Item trade:** Equip/Trade various items that you can earn by finishing parkours!
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 # Celestial
 2018 - 2020
@@ -100,7 +94,7 @@ Engine source modified editor camera to allow rotation alignment to the planet.
   <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
+### _____________________________________________________________________________________
 
 ## Custom Movement
 Custom planet character movement with engine integration and making use of the engines multiplayer client prediction.
@@ -108,7 +102,7 @@ Custom planet character movement with engine integration and making use of the e
   <source src="/assets/Celestial/PlanetMovement.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
+### ________________________________________________________________________________________________
 
 ## Custom AI
 Fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
@@ -117,7 +111,7 @@ Fully custom ai with a custom behavior tree and runtime pathfinding and Abilitie
   <source src="/assets/Celestial/newAi.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
+### ________________________________________________________________________________________________
 
 ## Machine Cluster System.
 Note System, which connects together all machines within a certain range.
@@ -129,9 +123,7 @@ for example, a Battery or Solarpannel.
   <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 # GrimmStar
 2020 - Today
@@ -162,9 +154,7 @@ Now it's up to you to ensure the survival of the Last Humans Alive.
   <source src="/assets/grimm/vid2.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 # Epidemic
 2021 - Today
@@ -210,9 +200,7 @@ Ability to setup a service which will for example reduce health when players foo
 
 ![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status3.jpg?raw=true)
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 # ZeroG
 ZeroG is a Portfolio Project to demonstrate my coding standards and abilities.
@@ -226,9 +214,7 @@ The Project is Open Source, and you can find a link to the Source below.
 
 ![Source Code](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Zerog/zerosource.jpg?raw=true)
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 ## Other Code
 Shoot Angle calculation to hit a specific location for Mortars and Machineguns
@@ -244,18 +230,14 @@ Equation Used
 
 ![Other](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/other/eq.jpg?raw=true)
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 Physics Based block build system with Programmable blocks.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/other/blockbuild.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+# ___________________________________________________________________________________
 
 ### Dedicated Server with Steam integration
 <video autoplay muted loop width="912" height="512">
