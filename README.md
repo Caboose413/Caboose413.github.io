@@ -193,7 +193,7 @@ like Inventory, Crafting, Hotbar.
 </video>
 
 ## Status System
-Flexible Status system to control player health, food, water and all sorts of other effects on the player.
+Flexible Status system to control player health, food, water and all sorts of other effects.
 <video autoplay muted loop width="310" height="74">
   <source src="/assets/epidemic/status.mp4" type="video/mp4">
 </video>
