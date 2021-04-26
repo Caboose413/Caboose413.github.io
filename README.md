@@ -178,8 +178,9 @@ start to emerge, you play as a journalist who is there to figure out what is goi
 - Game Design
 - Lead Programmer
 
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/epi1.jpg?raw=true)
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/epi2.jpg?raw=true)
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/epi3.jpg?raw=true)
 
 # Code
 
@@ -189,15 +190,20 @@ Flexible Inventory system which is built on Generic data which can be easily spe
   <source src="/assets/epidemic/inv.mp4" type="video/mp4">
 </video>
 
-## Inventory System
+## Status System
 Flexible Status system to control player health, food, water and all sorts of other effects on the player.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/epidemic/status.mp4" type="video/mp4">
 </video>
 
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
+Easily add any status.
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status1.jpg?raw=true)
 
+Ability to apply effects for example to apply bleading to the player.
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status2.jpg?raw=true)
 
+Ability to setup a service which will for example reduce health when players food is too low.
+![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status3.jpg?raw=true)
 
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
