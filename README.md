@@ -143,6 +143,9 @@ Now it's up to you to ensure the survival of the Last Humans Alive.
 
 **Position:**
 - Lead Programmer
+- AI programming.
+- Homing missile logic.
+- Mission System.
 
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
@@ -150,13 +153,20 @@ Now it's up to you to ensure the survival of the Last Humans Alive.
 # Code
 
 ## [Link to Devlog Youtube](https://www.youtube.com/watch?v=jqQypQANVyw)
-- AI programming.
-- Homing missile logic.
-- Mission System.
+
+Light weight AI to allow massive battles with up to 100 Ai while still maintaining good fps.
+
+## Ai Abilities.
+- Patrol an area and destroy enemy ships.
+- Waypoint system to setup a premade path which the Ai should follow.
+- Orbit mode, keep enemy ship within a certain orbit distance for optimal weapon damage.
 
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/grimm/vid1.mp4" type="video/mp4">
 </video>
+
+## Weapon System
+Chose between different weapons each with a unique behavior like Minigun, Homing Missile, or a high caliber rifle.
 
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/grimm/vid2.mp4" type="video/mp4">
