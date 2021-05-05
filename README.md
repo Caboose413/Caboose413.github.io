@@ -52,6 +52,7 @@ By moving your mouse left, and right you gain speed to finish the Parkour.
 - Lead Developer.
 - Level Design.
 - Programming.
+- Multiplayer.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/bunnyhopleague/BhlExample.gif?raw=true)
 
@@ -81,6 +82,7 @@ the next thing you remember is waking up above an unknown planet with no clue wh
 - Level Design.
 - 3D Modeling.
 - Programming.
+- Multiplayer
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00140.png?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00141.png?raw=true)
@@ -144,7 +146,6 @@ Now it's up to you to ensure the survival of the Last Humans Alive.
 **Position:**
 - Lead Programmer
 - AI programming.
-- Homing missile logic.
 - Mission System.
 
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
@@ -185,8 +186,9 @@ start to emerge, you play as a journalist who is there to figure out what is goi
 **Team Size: 2**
 
 **Position:**
-- Game Design
-- Lead Programmer
+- Game Design.
+- Lead Programmer.
+- Multiplayer.
 
 ![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/epi1.jpg?raw=true)
 ![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/epi2.jpg?raw=true)
