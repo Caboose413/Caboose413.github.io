@@ -291,13 +291,3 @@ Physics Based block build system with Programmable blocks.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/other/blockbuild.mp4" type="video/mp4">
 </video>
-
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-
-### Dedicated Server with Steam integration
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/other/Dedicated.mp4" type="video/mp4">
-</video>
-
