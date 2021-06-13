@@ -198,10 +198,12 @@ by leveling up and picking up items which come with all sorts of attributes and 
 Light weight AI to allow massive battles with up to 100 Ai while still maintaining good fps,
 each ai comes with a different set of abilities and attributes.
 
-
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/ai.mp4" type="video/mp4">
+</video>
 
 ## Attribute System
-Characters has a set of attributes which define certain gameplay behavior like Health, Attackspeed, Movingspeed.
+Characters can own set of attributes which define certain gameplay behavior like Health, Attackspeed, Movingspeed.
 
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/inf/attsystem.jpg?raw=true)
 
