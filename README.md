@@ -178,11 +178,10 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 
 # Infernal Eden
-2020 - Today
 
-Infernal Eden is a roughlike 3rd Person shooter which focuses on fast and exiting gameplay.
-you play as a subject who is brought into an arena to fight ancient beings, get stronger 
-by levling up and picking up items which come with all sorts of attributes and abilities.
+Infernal Eden is a roughlike 3rd Person shooter which focuses on fast and exciting gameplay. 
+you play as a subject who is brought into an arena to fight ancient beings. get stronger 
+by leveling up and picking up items which come with all sorts of attributes and abilities.
 
 **Team Size: 1**
 
@@ -197,34 +196,39 @@ by levling up and picking up items which come with all sorts of attributes and a
 
 ## Ai
 Light weight AI to allow massive battles with up to 100 Ai while still maintaining good fps,
-each ai comes with a different set of abilities.
+each ai comes with a different set of abilities and attributes.
 
 ## Attribute System
 Characters has a set of attributes which define certain gameplay behavior like Health, Attackspeed, Movingspeed.
+
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/att.mp4" type="video/mp4">
+</video>
 
 ## Item System
 Characters can own a variaty of items which all do effect the characters attributes and can also provide
 unique abilities.
 
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/items.mp4" type="video/mp4">
+</video>
+
 ## Ability System
 Characters can own a variaty of Abilities which all can have a unique feature for example, throwing a grenade
-or throwing a grenade which sets all characters in range on fire.
+which explodes or throwing a grenade which explodes and sets all characters in range on fire.
+
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/grimm/abb.mp4" type="video/mp4">
+</video>
 
 ## Effect System
 Characters can own different effects which can effect them in a positive or negative way for example,
 if the character has a burning effect he will burn and get damaged.
 
-
 <video autoplay muted loop width="912" height="512">
-  <source src="/assets/grimm/vid1.mp4" type="video/mp4">
+  <source src="/assets/grimm/eff.mp4" type="video/mp4">
 </video>
 
-## Weapon System
-Chose between different weapons each with a unique behavior like Minigun, Homing Missile, or a high caliber rifle.
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/grimm/vid2.mp4" type="video/mp4">
-</video>
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
