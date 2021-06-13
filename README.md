@@ -218,7 +218,7 @@ Characters can own a variaty of Abilities which all can have a unique feature fo
 which explodes or throwing a grenade which explodes and sets all characters in range on fire.
 
 <video autoplay muted loop width="912" height="512">
-  <source src="/assets/grimm/abb.mp4" type="video/mp4">
+  <source src="/assets/inf/abb.mp4" type="video/mp4">
 </video>
 
 ## Effect System
@@ -226,7 +226,7 @@ Characters can own different effects which can effect them in a positive or nega
 if the character has a burning effect he will burn and get damaged.
 
 <video autoplay muted loop width="912" height="512">
-  <source src="/assets/grimm/eff.mp4" type="video/mp4">
+  <source src="/assets/inf/eff.mp4" type="video/mp4">
 </video>
 
 ________________________________________________________________________________________________
