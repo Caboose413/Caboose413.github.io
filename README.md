@@ -264,21 +264,6 @@ like Inventory, Crafting, Hotbar.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/epidemic/inv.mp4" type="video/mp4">
 </video>
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-
-# ZeroG
-ZeroG is a Portfolio Project to demonstrate my coding standards and abilities.
-The Project is Open Source, and you can find a link to the Source below.
-
-## [ZeroG Source](https://github.com/Caboose413/ZeroG)
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/Zerog/zerofly.mp4" type="video/mp4">
-</video>
-
-![Source Code](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Zerog/zerosource.jpg?raw=true)
 
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
