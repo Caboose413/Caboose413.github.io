@@ -264,25 +264,6 @@ like Inventory, Crafting, Hotbar.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/epidemic/inv.mp4" type="video/mp4">
 </video>
-
-## Status System
-Flexible Status system to control player health, food, water and all sorts of other effects.
-<video autoplay muted loop width="310" height="74">
-  <source src="/assets/epidemic/status.mp4" type="video/mp4">
-</video>
-
-Easily add any status.
-
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status1.jpg?raw=true)
-
-Ability to add effects for example to apply bleeding to the player.
-
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status2.jpg?raw=true)
-
-Ability to setup a service which will for example reduce health when players food is too low.
-
-![Epidemic](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/epidemic/status3.jpg?raw=true)
-
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
