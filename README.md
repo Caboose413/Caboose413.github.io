@@ -258,7 +258,8 @@ start to emerge, you play as a journalist who is there to figure out what is goi
 # Code
 
 ## Inventory System
-Flexible Inventory system built on Generic data which can be easily specialized to create all sorts of interaction
+Flexible Inventory system which supports infinitly stacking containers.
+the system is built on Generic data which can be easily specialized to create all sorts of interaction
 like Inventory, Crafting, Hotbar.
 
 <video autoplay muted loop width="912" height="512">
