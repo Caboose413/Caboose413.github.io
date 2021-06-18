@@ -179,7 +179,7 @@ ________________________________________________________________________________
 
 # Infernal Eden
 
-Infernal Eden is a roughlike 3rd Person shooter which focuses on fast and exciting gameplay. 
+Infernal Eden is a roguelike 3rd Person shooter which focuses on fast and exciting gameplay. 
 you play as a subject who is brought into an arena to fight ancient beings. get stronger 
 by leveling up and picking up items which come with all sorts of attributes and abilities.
 
