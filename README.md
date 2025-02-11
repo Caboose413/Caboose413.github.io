@@ -39,20 +39,10 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 
 # Bunny hop league
-2016-2018
-
 Bunny hop league is a fast-paced parkour game that is making use of the famous bunny hopping and surfing technique from Counter-Strike.
 By moving your mouse left, and right you gain speed to finish the Parkour.
 
 ## [Link to Steam ](https://store.steampowered.com/app/429780/Bunny_Hop_League/)
-
-**Team Size: 3**
-
-**Position:**
-- Lead Developer.
-- Level Design.
-- Programming.
-- Multiplayer.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/bunnyhopleague/BhlExample.gif?raw=true)
 
@@ -67,22 +57,11 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 
 # Celestial
-2016 - 2020
-
 Celestial is a Co-op survival adventure that takes place on an Alien planet. You Play as a Physicist astronaut who got tasked with testing the first warp drive created by humankind.
 But shortly after starting up the drive and beginning the test, strange things start to happen the warp drive starts to overhead, and an abyss starts to emerge, sucking in you and your ship,
 the next thing you remember is waking up above an unknown planet with no clue what just happened or how to get back.
 
 ## [Link to Steam](https://store.steampowered.com/app/1194910/Celestial/)
-
-**Team Size: 1**
-
-**Position:**
-- Lead Developer.
-- Level Design.
-- 3D Modeling.
-- Programming.
-- Multiplayer
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00140.png?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00141.png?raw=true)
@@ -112,15 +91,6 @@ Custom planet character movement with engine integration and making use of the e
 
 ________________________________________________________________________________________________
 
-## Custom AI
-Fully custom ai with a custom behavior tree and runtime pathfinding and Abilities.
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/Celestial/newAi.mp4" type="video/mp4">
-</video>
-
-________________________________________________________________________________________________
-
 ## Machine Cluster System.
 Note System, which connects together all machines within a certain range.
 Enables Crafting Benches to access and distribute into every storage unit inside the network.
@@ -136,17 +106,8 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 
 # GrimmStar
-2020 - Today
-
 GrimmStar is a vast open-world Space shooter playing in a Universe where Aliens have chased off the Human race from earth.
 Now it's up to you to ensure the survival of the Last Humans Alive.
-
-**Team Size: 8**
-
-**Position:**
-- Lead Programmer
-- AI programming.
-- Mission System.
 
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
 ![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
@@ -154,17 +115,6 @@ Now it's up to you to ensure the survival of the Last Humans Alive.
 # Code
 
 ## [Link to Devlog Youtube](https://www.youtube.com/watch?v=jqQypQANVyw)
-
-Light weight AI to allow massive battles with up to 100 Ai while still maintaining good fps.
-
-## Ai Abilities.
-- Patrol an area and destroy enemy ships.
-- Waypoint system to setup a premade path which the Ai should follow.
-- Orbit mode, keep enemy ship within a certain orbit distance for optimal weapon damage.
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/grimm/vid1.mp4" type="video/mp4">
-</video>
 
 ## Weapon System
 Chose between different weapons each with a unique behavior like Minigun, Homing Missile, or a high caliber rifle.
@@ -178,59 +128,10 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 
 # Infernal Eden
-
 Infernal Eden is a roguelike 3rd Person shooter which focuses on fast and exciting gameplay. 
 you play as a subject who is brought into an arena to fight ancient beings. get stronger 
 by leveling up and picking up items which come with all sorts of attributes and abilities.
 
-**Team Size: 1**
-
-**Position:**
-- Lead Developer
-
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/inf/infgame.mp4" type="video/mp4">
-</video>
-
-# Code
-
-## Ai
-Light weight AI to allow massive battles with up to 100 Ai while still maintaining good fps,
-each ai comes with a different set of abilities and attributes.
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/inf/ai.mp4" type="video/mp4">
-</video>
-
-## Attribute System
-Characters can own set of attributes which define certain gameplay behavior like Health, Attackspeed, Movingspeed.
-
-![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/inf/attsystem.jpg?raw=true)
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/inf/att.mp4" type="video/mp4">
-</video>
-
-## Item System
-Characters can own a variaty of items which all do effect the characters attributes and can also provide
-unique abilities.
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/inf/items.mp4" type="video/mp4">
-</video>
-
-## Ability System
-Characters can own a variaty of Abilities which all can have a unique feature for example, throwing a grenade
-which explodes or throwing a grenade which explodes and sets all characters in range on fire.
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/inf/abb.mp4" type="video/mp4">
-</video>
-
-## Effect System
-Characters can own different effects which can effect them in a positive or negative way for example,
-if the character has a burning effect he will burn and get damaged.
-
-<video autoplay muted loop width="912" height="512">
-  <source src="/assets/inf/eff.mp4" type="video/mp4">
 </video>
