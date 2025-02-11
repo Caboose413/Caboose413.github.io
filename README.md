@@ -20,16 +20,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 
 # The Facility
-2014-2016
-
 The Facility is a survival horror game playing shortly after the 2nd world war. You play as Nathan, who has been searching for a hidden Nazi bunker that is supposed to be full of treasure. But little did you know about the real reasons why you were trying to find the bunker.
-
-**Team Size: 5**
-
-**Position:**
-- Co-Lead Developer.
-- 3D Modeling.
-- Level Design.
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_34395fe17e090bbb9302f7e80c7f7001aa653b92.1920x1080.jpg?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_982f52469469140dc627cb7a15df0dbfb88b6b76.1920x1080.jpg?raw=true)
