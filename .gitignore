@@ -1,2 +1,5 @@
 
 OfflineAssets/
+
+*.md
+!README.md
