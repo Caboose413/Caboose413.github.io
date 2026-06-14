@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devin — Indie Game Developer</title>
+    <style>
+        :root {
+            --bg:          #0d1117;
+            --bg-surface:  #161b22;
+            --bg-elevated: #1c2128;
+            --border:      #30363d;
+            --border-dim:  #21262d;
+            --text:        #c9d1d9;
+            --text-muted:  #8b949e;
+            --text-strong: #e6edf3;
+            --accent:      #58a6ff;
+            --accent-hover:#79c0ff;
+            --sidebar-w:   265px;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.65;
+            display: flex;
+        }
+
+        /* ── Sidebar ─────────────────────────────────────── */
+
+        .sidebar {
+            width: var(--sidebar-w);
+            min-height: 100vh;
+            background: var(--bg-surface);
+            border-right: 1px solid var(--border);
+            position: fixed;
+            top: 0; left: 0;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem 1.5rem 1.5rem;
+            z-index: 50;
+        }
+
+        .profile-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-strong);
+            margin-bottom: 0.15rem;
+        }
+
+        .profile-sub {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 1.4rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .tag {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+            margin-bottom: 1.75rem;
+        }
+
+        .contact-links a {
+            font-size: 0.78rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .contact-links a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        .nav-section {
+            border-top: 1px solid var(--border-dim);
+            padding-top: 1.25rem;
+        }
+
+        .nav-label {
+            font-size: 0.67rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-bottom: 0.6rem;
+        }
+
+        .nav-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.3rem 0.6rem;
+            margin: 0 -0.6rem;
+            border-radius: 5px;
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            transition: background 0.12s, color 0.12s;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            background: var(--bg-elevated);
+            color: var(--accent);
+        }
+
+        .nav-year {
+            font-size: 0.68rem;
+            color: #4d5566;
+        }
+
+        /* ── Main content ─────────────────────────────────── */
+
+        .content {
+            margin-left: var(--sidebar-w);
+            flex: 1;
+            padding: 3.5rem 3rem;
+            max-width: calc(var(--sidebar-w) + 860px);
+        }
+
+        /* ── Project sections ─────────────────────────────── */
+
+        .project { margin-bottom: 5.5rem; }
+
+        .banner {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            display: block;
+            margin-bottom: 1.5rem;
+        }
+
+        .img-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.6rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .img-grid img {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            display: block;
+        }
+
+        .project-head {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-title {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text-strong);
+        }
+
+        .badge {
+            font-size: 0.72rem;
+            padding: 0.15rem 0.55rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            background: var(--bg-surface);
+            white-space: nowrap;
+        }
+
+        .steam-link {
+            font-size: 0.72rem;
+            padding: 0.15rem 0.55rem;
+            border-radius: 4px;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            text-decoration: none;
+            transition: background 0.12s, color 0.12s;
+        }
+        .steam-link:hover { background: var(--accent); color: var(--bg); }
+
+        .project-desc {
+            max-width: 680px;
+            margin-bottom: 1.25rem;
+        }
+
+        .meta-row {
+            display: flex;
+            gap: 2.5rem;
+            margin-bottom: 1.25rem;
+            flex-wrap: wrap;
+        }
+
+        .meta-block label {
+            display: block;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.09em;
+            color: var(--text-muted);
+            margin-bottom: 0.35rem;
+        }
+
+        .meta-value { font-size: 1rem; color: var(--text-strong); }
+
+        .role-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+
+        .role-tag {
+            font-size: 0.72rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .feature-list {
+            padding-left: 1.2rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .feature-list li {
+            margin-bottom: 0.3rem;
+        }
+
+        .feature-list li strong {
+            color: var(--text-strong);
+        }
+
+        /* ── Code subsections ─────────────────────────────── */
+
+        .code-block {
+            border-top: 1px solid var(--border-dim);
+            padding-top: 1.4rem;
+            margin-top: 1.4rem;
+        }
+
+        .code-block h3 {
+            font-size: 0.95rem;
+            color: var(--accent);
+            margin-bottom: 0.4rem;
+        }
+
+        .code-block p, .code-block li {
+            font-size: 0.87rem;
+            color: var(--text-muted);
+            max-width: 660px;
+        }
+
+        .code-block ul {
+            padding-left: 1.2rem;
+            margin: 0.4rem 0 0.75rem;
+        }
+
+        .code-block ul li { margin-bottom: 0.2rem; }
+
+        video {
+            width: 100%;
+            display: block;
+            border-radius: 7px;
+            border: 1px solid var(--border);
+            background: #000;
+            margin-top: 0.75rem;
+        }
+
+        .screenshot {
+            width: 100%;
+            display: block;
+            border-radius: 7px;
+            border: 1px solid var(--border);
+            margin-top: 0.75rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 4rem 0;
+        }
+
+        /* ── Mobile ───────────────────────────────────────── */
+
+        @media (max-width: 800px) {
+            body { flex-direction: column; }
+            .sidebar {
+                position: static;
+                width: 100%;
+                min-height: auto;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+            .content { margin-left: 0; padding: 2rem 1.25rem; }
+            .img-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ══ Sidebar ══════════════════════════════════════════════════════════════ -->
+
+<aside class="sidebar">
+    <p class="profile-name">Devin</p>
+    <p class="profile-sub">Indie Game Developer &middot; Germany</p>
+
+    <div class="skill-tags">
+        <span class="tag">C++</span>
+        <span class="tag">Blueprint</span>
+        <span class="tag">Unreal Engine 4</span>
+        <span class="tag">3D Modeling</span>
+        <span class="tag">Animation</span>
+        <span class="tag">Level Design</span>
+        <span class="tag">Multiplayer</span>
+        <span class="tag">AI Programming</span>
+        <span class="tag">Optimization</span>
+    </div>
+
+    <div class="contact-links">
+        <a href="https://www.artstation.com/caboose413" target="_blank">↗ ArtStation</a>
+        <a href="mailto:Caboose4131@gmail.com">✉ Caboose4131@gmail.com</a>
+        <a href="#">Discord: Caboose413#1759</a>
+    </div>
+
+    <nav class="nav-section">
+        <p class="nav-label">Projects</p>
+        <a class="nav-link" href="#the-facility">The Facility <span class="nav-year">2014</span></a>
+        <a class="nav-link" href="#bunny-hop-league">Bunny Hop League <span class="nav-year">2016</span></a>
+        <a class="nav-link" href="#celestial">Celestial <span class="nav-year">2016</span></a>
+        <a class="nav-link" href="#grimmstar">GrimmStar <span class="nav-year">2020</span></a>
+        <a class="nav-link" href="#infernal-eden">Infernal Eden</a>
+    </nav>
+</aside>
+
+<!-- ══ Content ══════════════════════════════════════════════════════════════ -->
+
+<main class="content">
+
+    <!-- The Facility -->
+    <section class="project" id="the-facility">
+        <div class="img-grid">
+            <img src="/assets/TheFacility/ss_34395fe17e090bbb9302f7e80c7f7001aa653b92.1920x1080.jpg" alt="The Facility">
+            <img src="/assets/TheFacility/ss_982f52469469140dc627cb7a15df0dbfb88b6b76.1920x1080.jpg" alt="The Facility">
+        </div>
+        <div class="project-head">
+            <h2 class="project-title">The Facility</h2>
+            <span class="badge">2014 – 2016</span>
+        </div>
+        <p class="project-desc">
+            A survival horror game set shortly after the Second World War. You play as Nathan, searching for a hidden bunker said to be full of treasure — unaware of the real secret it holds.
+        </p>
+        <div class="meta-row">
+            <div class="meta-block">
+                <label>Team Size</label>
+                <span class="meta-value">5</span>
+            </div>
+            <div class="meta-block">
+                <label>My Role</label>
+                <div class="role-tags">
+                    <span class="role-tag">Co-Lead Developer</span>
+                    <span class="role-tag">3D Modeling</span>
+                    <span class="role-tag">Level Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Bunny Hop League -->
+    <section class="project" id="bunny-hop-league">
+        <img class="banner" src="/assets/bunnyhopleague/BhlExample.gif" alt="Bunny Hop League">
+        <div class="project-head">
+            <h2 class="project-title">Bunny Hop League</h2>
+            <span class="badge">2016 – 2018</span>
+            <a class="steam-link" href="https://store.steampowered.com/app/429780/Bunny_Hop_League/" target="_blank">Steam ↗</a>
+        </div>
+        <p class="project-desc">
+            A fast-paced parkour game built around the bunny hopping and surfing technique from Counter-Strike. Move your mouse left and right to build speed and race through each course.
+        </p>
+        <div class="meta-row">
+            <div class="meta-block">
+                <label>Team Size</label>
+                <span class="meta-value">3</span>
+            </div>
+            <div class="meta-block">
+                <label>My Role</label>
+                <div class="role-tags">
+                    <span class="role-tag">Lead Developer</span>
+                    <span class="role-tag">Programming</span>
+                    <span class="role-tag">Multiplayer</span>
+                    <span class="role-tag">Level Design</span>
+                </div>
+            </div>
+        </div>
+        <ul class="feature-list">
+            <li><strong>Parkour</strong> — find and learn the fastest route through each course</li>
+            <li><strong>Multiplayer</strong> — race against friends for the best time</li>
+            <li><strong>Item trade</strong> — earn and trade cosmetics by completing parkours</li>
+        </ul>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Celestial -->
+    <section class="project" id="celestial">
+        <div class="img-grid">
+            <img src="/assets/Celestial/HighresScreenshot00140.png" alt="Celestial">
+            <img src="/assets/Celestial/HighresScreenshot00141.png" alt="Celestial">
+        </div>
+        <div class="project-head">
+            <h2 class="project-title">Celestial</h2>
+            <span class="badge">2016 – 2020</span>
+            <a class="steam-link" href="https://store.steampowered.com/app/1194910/Celestial/" target="_blank">Steam ↗</a>
+        </div>
+        <p class="project-desc">
+            A co-op survival adventure set on an alien planet. You play as an astronaut physicist testing humanity's first warp drive — until it overheats, tears a rift in space, and pulls you to an unknown world with no way back.
+        </p>
+        <div class="meta-row">
+            <div class="meta-block">
+                <label>Team Size</label>
+                <span class="meta-value">1</span>
+            </div>
+            <div class="meta-block">
+                <label>My Role</label>
+                <div class="role-tags">
+                    <span class="role-tag">Lead Developer</span>
+                    <span class="role-tag">Programming</span>
+                    <span class="role-tag">Multiplayer</span>
+                    <span class="role-tag">3D Modeling</span>
+                    <span class="role-tag">Level Design</span>
+                </div>
+            </div>
+        </div>
+        <ul class="feature-list">
+            <li><strong>Vast World</strong> — spherical planet of 380 km², no invisible walls</li>
+            <li><strong>Survive</strong> — endure tornados, sandstorms, and meteor strikes while fighting alien creatures</li>
+            <li><strong>Co-op</strong> — explore and survive together with friends</li>
+        </ul>
+
+        <div class="code-block">
+            <h3>Custom Editor Camera</h3>
+            <p>Engine source modified to support editor camera rotation aligned to the planet's surface normal.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Custom Movement</h3>
+            <p>Custom planet character movement with full engine integration and multiplayer client prediction.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/Celestial/PlanetMovement.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Custom AI</h3>
+            <p>Fully custom AI system with a behavior tree, runtime pathfinding, and modular abilities.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/Celestial/newAi.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Inventory System</h3>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/Celestial/Inventory.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Status System</h3>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/Celestial/StatusSystem.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Save System</h3>
+            <img class="screenshot" src="/assets/Celestial/SaveSystemGif.gif" alt="Save System">
+        </div>
+
+        <div class="code-block">
+            <h3>Machine Cluster System</h3>
+            <p>A node system that connects all machines within range. Crafting benches can access and distribute resources across every linked storage unit. Power is transferred through the network from batteries or solar panels.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- GrimmStar -->
+    <section class="project" id="grimmstar">
+        <div class="img-grid">
+            <img src="/assets/grimm/grimm1.jpg" alt="GrimmStar">
+            <img src="/assets/grimm/grimm2.jpg" alt="GrimmStar">
+        </div>
+        <div class="project-head">
+            <h2 class="project-title">GrimmStar</h2>
+            <span class="badge">2020 – Present</span>
+            <a class="steam-link" href="https://www.youtube.com/watch?v=jqQypQANVyw" target="_blank">Devlog ↗</a>
+        </div>
+        <p class="project-desc">
+            A vast open-world space shooter set in a universe where aliens have driven humanity from Earth. It's up to you to ensure the survival of the last humans alive.
+        </p>
+        <div class="meta-row">
+            <div class="meta-block">
+                <label>Team Size</label>
+                <span class="meta-value">8</span>
+            </div>
+            <div class="meta-block">
+                <label>My Role</label>
+                <div class="role-tags">
+                    <span class="role-tag">Lead Programmer</span>
+                    <span class="role-tag">AI Programming</span>
+                    <span class="role-tag">Mission System</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="code-block">
+            <h3>AI System</h3>
+            <p>Lightweight AI supporting massive battles with up to 100 units while maintaining solid frame rates.</p>
+            <ul>
+                <li>Patrol an area and engage enemy ships</li>
+                <li>Follow a premade waypoint path</li>
+                <li>Orbit mode — hold optimal weapon range around a target</li>
+            </ul>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/grimm/vid1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Weapon System</h3>
+            <p>Choose from weapons with unique behaviors — Minigun, Homing Missile, and high-caliber rifle.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/grimm/vid2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Infernal Eden -->
+    <section class="project" id="infernal-eden">
+        <div class="project-head">
+            <h2 class="project-title">Infernal Eden</h2>
+        </div>
+        <p class="project-desc">
+            A roguelike third-person shooter focused on fast, exciting gameplay. You are thrown into an arena to fight ancient beings — grow stronger by leveling up and equipping items with a wide range of attributes and abilities.
+        </p>
+        <div class="meta-row">
+            <div class="meta-block">
+                <label>Team Size</label>
+                <span class="meta-value">1</span>
+            </div>
+            <div class="meta-block">
+                <label>My Role</label>
+                <div class="role-tags">
+                    <span class="role-tag">Lead Developer</span>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline>
+            <source src="/assets/inf/infgame.mp4" type="video/mp4">
+        </video>
+
+        <div class="code-block">
+            <h3>AI System</h3>
+            <p>Lightweight AI supporting battles with up to 100 enemies at solid frame rates. Each enemy has a unique set of abilities and attributes.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/inf/ai.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Attribute System</h3>
+            <p>Characters own a set of attributes that define gameplay behavior — Health, Attack Speed, Move Speed, and more.</p>
+            <img class="screenshot" src="/assets/inf/attsystem.jpg" alt="Attribute System">
+            <video autoplay muted loop playsinline>
+                <source src="/assets/inf/att.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Item System</h3>
+            <p>Characters can equip a variety of items, each affecting attributes and potentially granting unique abilities.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/inf/items.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Ability System</h3>
+            <p>Characters can use a variety of abilities with unique compound effects — for example, a grenade that explodes on impact, or one that also sets nearby characters on fire.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/inf/abb.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="code-block">
+            <h3>Effect System</h3>
+            <p>Characters can be affected by positive or negative status effects, such as a burning debuff that deals damage over time.</p>
+            <video autoplay muted loop playsinline>
+                <source src="/assets/inf/eff.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+</main>
+
+<script>
+    // Highlight active nav link as user scrolls
+    const sections = document.querySelectorAll('.project[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                navLinks.forEach(l => l.classList.remove('active'));
+                const active = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+                if (active) active.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+
+    sections.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
