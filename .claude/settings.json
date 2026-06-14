@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"e:\\\\Website\\\\Caboose413.github.io\" log --oneline -10)"
+    ]
+  }
+}

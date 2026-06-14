@@ -1,128 +1,217 @@
-Hello, my name is Devin. I'm an indie game developer from Germany.
-I have been using the unreal engine 4 now since 2014, sofar I have been working on many different titles.
+# Devin — Indie Game Developer
 
-I mainly focus on Programming with C++ and BP.
+Hello, my name is Devin. I'm an indie game developer from Germany. I have been working with Unreal Engine 4 since 2014 and have shipped multiple titles across a range of genres.
 
-but I also got knowledge in 3D Modeling, Animation, material programming, and Level Design, 
-## [Link to ArtStation](https://www.artstation.com/caboose413)
+I mainly focus on programming with **C++** and **Blueprint**.
 
-One of the most important parts for me is to keeping track of performance and optimization.
+I also have experience in 3D Modeling, Animation, material programming, and Level Design.
 
+**[ArtStation](https://www.artstation.com/caboose413)**
 
-Contact.
+One of the most important parts of my work is keeping track of performance and optimization.
 
-Discord: Caboose413#1759
+---
 
-Email:Caboose4131@gmail.com
+**Contact**
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+- Discord: Caboose413#1759
+- Email: Caboose4131@gmail.com
+
+---
 
 # The Facility
-The Facility is a survival horror game playing shortly after the 2nd world war. You play as Nathan, who has been searching for a hidden Nazi bunker that is supposed to be full of treasure. But little did you know about the real reasons why you were trying to find the bunker.
+*2014 – 2016*
 
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_34395fe17e090bbb9302f7e80c7f7001aa653b92.1920x1080.jpg?raw=true)
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_982f52469469140dc627cb7a15df0dbfb88b6b76.1920x1080.jpg?raw=true)
+The Facility is a survival horror game set shortly after the Second World War. You play as Nathan, who has been searching for a hidden Nazi bunker said to be full of treasure — but little did he know the real reason the bunker was kept secret.
 
-______________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+**Team Size:** 5
 
-# Bunny hop league
-Bunny hop league is a fast-paced parkour game that is making use of the famous bunny hopping and surfing technique from Counter-Strike.
-By moving your mouse left, and right you gain speed to finish the Parkour.
+**My Role:**
+- Co-Lead Developer
+- 3D Modeling
+- Level Design
 
-## [Link to Steam ](https://store.steampowered.com/app/429780/Bunny_Hop_League/)
+![The Facility](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_34395fe17e090bbb9302f7e80c7f7001aa653b92.1920x1080.jpg?raw=true)
+![The Facility](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/TheFacility/ss_982f52469469140dc627cb7a15df0dbfb88b6b76.1920x1080.jpg?raw=true)
 
-![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/bunnyhopleague/BhlExample.gif?raw=true)
+---
 
-### key features:
+# Bunny Hop League
+*2016 – 2018*
 
-- **Parkour:** a key aspect of BHL is to figure out and learn what the best route is in each Parkour!
-- **Multiplayer:** play against your friends and race for the fastest time!
-- **Item trade:** Equip/Trade various items that you can earn by finishing parkours!
+**[Link to Steam](https://store.steampowered.com/app/429780/Bunny_Hop_League/)**
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+Bunny Hop League is a fast-paced parkour game that makes use of the famous bunny hopping and surfing technique from Counter-Strike. By moving your mouse left and right you gain speed to finish each parkour.
+
+**Team Size:** 3
+
+**My Role:**
+- Lead Developer
+- Programming
+- Level Design
+- Multiplayer
+
+![Bunny Hop League](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/bunnyhopleague/BhlExample.gif?raw=true)
+
+**Key features:**
+
+- **Parkour:** Figure out and learn the best route through each course
+- **Multiplayer:** Race against friends for the fastest time
+- **Item trade:** Earn and trade items by finishing parkours
+
+---
 
 # Celestial
-Celestial is a Co-op survival adventure that takes place on an Alien planet. You Play as a Physicist astronaut who got tasked with testing the first warp drive created by humankind.
-But shortly after starting up the drive and beginning the test, strange things start to happen the warp drive starts to overhead, and an abyss starts to emerge, sucking in you and your ship,
-the next thing you remember is waking up above an unknown planet with no clue what just happened or how to get back.
+*2016 – 2020*
 
-## [Link to Steam](https://store.steampowered.com/app/1194910/Celestial/)
+**[Link to Steam](https://store.steampowered.com/app/1194910/Celestial/)**
+
+Celestial is a co-op survival adventure set on an alien planet. You play as a physicist astronaut tasked with testing humanity's first warp drive. Shortly after starting the drive, something goes wrong — it begins to overheat, an abyss opens, and you are pulled in. You wake up above an unknown planet with no memory of what happened or how to get back.
+
+**Team Size:** 1
+
+**My Role:**
+- Lead Developer
+- Programming
+- Multiplayer
+- 3D Modeling
+- Level Design
 
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00140.png?raw=true)
 ![Celestial](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/Celestial/HighresScreenshot00141.png?raw=true)
 
+**Content:**
 
-### Content of this Project:
+- **Vast World:** A spherical world of 380 km², no borders or walls to stop you
+- **Survive:** Endure tornados, sandstorms, and meteor strikes while fighting alien creatures
+- **Co-op:** Explore and survive together with friends
 
-- **Vast World:** Play on a Spherical world of 380km2, no borders or walls to stop you!
-- **Survive:** Survive in a hostile environment with Tornados, Sandstorm, and Meteors and fight against alien creatures.
-- **Co-op:** Play and survive together with friends and explore a new world!
+## Code
 
-# Code
-
-## Custom Editor Camera
-Engine source modified editor camera to allow rotation alignment to the planet.
+### Custom Editor Camera
+Engine source modified to allow editor camera rotation aligned to the planet surface.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/EditorCamera.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
+---
 
-## Custom Movement
-Custom planet character movement with engine integration and making use of the engines multiplayer client prediction.
+### Custom Movement
+Custom planet character movement with full engine integration and multiplayer client prediction.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/PlanetMovement.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
+---
 
-## Machine Cluster System.
-Note System, which connects together all machines within a certain range.
-Enables Crafting Benches to access and distribute into every storage unit inside the network.
-The network also manages energy for each machine by transferring power from a power source, 
-for example, a Battery or Solarpannel.
+### Custom AI
+Fully custom AI with a custom behavior tree, runtime pathfinding, and abilities.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/Celestial/newAi.mp4" type="video/mp4">
+</video>
 
+---
+
+### Machine Cluster System
+A node system that connects all machines within a certain range. Enables crafting benches to access and distribute resources across every storage unit in the network. The network also manages energy by transferring power from sources such as batteries or solar panels.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/Celestial/Notes.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+---
 
 # GrimmStar
-GrimmStar is a vast open-world Space shooter playing in a Universe where Aliens have chased off the Human race from earth.
-Now it's up to you to ensure the survival of the Last Humans Alive.
+*2020 – Present*
 
-![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
-![Grimmstar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
+GrimmStar is a vast open-world space shooter set in a universe where aliens have driven the human race from Earth. It's up to you to ensure the survival of the last humans alive.
 
-# Code
+**Team Size:** 8
 
-## [Link to Devlog Youtube](https://www.youtube.com/watch?v=jqQypQANVyw)
+**My Role:**
+- Lead Programmer
+- AI Programming
+- Mission System
 
-## Weapon System
-Chose between different weapons each with a unique behavior like Minigun, Homing Missile, or a high caliber rifle.
+![GrimmStar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm1.jpg?raw=true)
+![GrimmStar](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/grimm/grimm2.jpg?raw=true)
 
+**[Devlog on YouTube](https://www.youtube.com/watch?v=jqQypQANVyw)**
+
+## Code
+
+### AI System
+Lightweight AI designed to support massive battles with up to 100 AI units while maintaining solid frame rates.
+
+**AI capabilities:**
+- Patrol an area and engage enemy ships
+- Follow a premade waypoint path
+- Orbit mode — maintain optimal weapon range around a target
+
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/grimm/vid1.mp4" type="video/mp4">
+</video>
+
+---
+
+### Weapon System
+Choose from different weapons, each with unique behavior — Minigun, Homing Missile, or a high-caliber rifle.
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/grimm/vid2.mp4" type="video/mp4">
 </video>
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-________________________________________________________________________________________________
+---
 
 # Infernal Eden
-Infernal Eden is a roguelike 3rd Person shooter which focuses on fast and exciting gameplay. 
-you play as a subject who is brought into an arena to fight ancient beings. get stronger 
-by leveling up and picking up items which come with all sorts of attributes and abilities.
+
+Infernal Eden is a roguelike third-person shooter focused on fast and exciting gameplay. You play as a subject thrown into an arena to fight ancient beings — grow stronger by leveling up and collecting items with a wide range of attributes and abilities.
+
+**Team Size:** 1
+
+**My Role:**
+- Lead Developer
 
 <video autoplay muted loop width="912" height="512">
   <source src="/assets/inf/infgame.mp4" type="video/mp4">
+</video>
+
+## Code
+
+### AI System
+Lightweight AI supporting battles with up to 100 enemies while maintaining solid frame rates. Each enemy has a unique set of abilities and attributes.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/ai.mp4" type="video/mp4">
+</video>
+
+---
+
+### Attribute System
+Characters have a set of attributes that define gameplay behavior: Health, Attack Speed, Move Speed, and more.
+
+![Attribute System](https://github.com/Caboose413/Caboose413.github.io/blob/master/assets/inf/attsystem.jpg?raw=true)
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/att.mp4" type="video/mp4">
+</video>
+
+---
+
+### Item System
+Characters can equip a variety of items, each affecting their attributes and potentially granting unique abilities.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/items.mp4" type="video/mp4">
+</video>
+
+---
+
+### Ability System
+Characters can use a variety of abilities, each with unique effects — for example, throwing a grenade that explodes, or one that explodes and sets all nearby characters on fire.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/abb.mp4" type="video/mp4">
+</video>
+
+---
+
+### Effect System
+Characters can be affected by positive or negative status effects — for example, a burning effect that deals damage over time.
+<video autoplay muted loop width="912" height="512">
+  <source src="/assets/inf/eff.mp4" type="video/mp4">
 </video>
