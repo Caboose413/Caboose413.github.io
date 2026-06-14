@@ -132,7 +132,11 @@
             margin-left: var(--sidebar-w);
             flex: 1;
             padding: 3.5rem 3rem;
-            max-width: calc(var(--sidebar-w) + 860px);
+        }
+
+        .inner {
+            max-width: 860px;
+            margin: 0 auto;
         }
 
         /* ── Project sections ─────────────────────────────── */
@@ -353,6 +357,7 @@
 <!-- ══ Content ══════════════════════════════════════════════════════════════ -->
 
 <main class="content">
+<div class="inner">
 
     <!-- The Facility -->
     <section class="project" id="the-facility">
@@ -629,6 +634,7 @@
         </div>
     </section>
 
+</div>
 </main>
 
 <script>
