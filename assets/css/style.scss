@@ -1,0 +1,85 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// ── Dark theme overrides ──────────────────────────────────────────────────────
+
+// Page header (teal gradient → dark navy)
+.page-header {
+  background-color: #0d1117;
+  background-image: linear-gradient(135deg, #0d1117 0%, #1a1f35 100%);
+  border-bottom: 1px solid #30363d;
+}
+
+// Body & main content background
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+.main-content {
+  color: #c9d1d9;
+
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    color: #58a6ff;
+    border-bottom-color: #21262d;
+  }
+
+  // Links
+  a {
+    color: #58a6ff;
+    &:hover {
+      color: #79c0ff;
+    }
+  }
+
+  // Horizontal rules
+  hr {
+    border-color: #21262d;
+  }
+
+  // Bold / strong
+  strong {
+    color: #e6edf3;
+  }
+
+  // Inline code
+  code {
+    background-color: #161b22;
+    color: #e6edf3;
+    border: 1px solid #30363d;
+  }
+
+  // Block quotes
+  blockquote {
+    color: #8b949e;
+    border-left-color: #30363d;
+  }
+
+  // Tables
+  table {
+    th {
+      background-color: #161b22;
+      color: #e6edf3;
+    }
+    td {
+      border-color: #21262d;
+      color: #c9d1d9;
+    }
+    tr:nth-child(even) {
+      background-color: #161b22;
+    }
+  }
+}
+
+// Site footer
+.site-footer {
+  border-top-color: #21262d;
+  color: #8b949e;
+
+  a {
+    color: #58a6ff;
+  }
+}
